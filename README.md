@@ -11,7 +11,7 @@ Items you will use include:
 - SVG and image assets included under `/assets`
 - data sources, in JSON form, under `/data/`
   - NOTE: the file `customer-case-studies.json` includes 18 case studies, you only need to pick one for this page :)
-- a design mockup hosted on Figma (link)
+- a design mockup hosted on [Figma](https://www.figma.com/file/nKnqhZfLi1YdOqMMwKKCXN/Rasa-Marketing-Tech-Test)
 
 ## Rules and Guidelines
 
