@@ -19,13 +19,15 @@ You should not spend more than ~4 hours on this task. This may not be enough tim
 
 Some guidelines:
 
-- please apply styling using either CSS or Sass, not a CSS-in-JS library. You may use CSS-module `.module.(s)css` syntax if you like.
-- please use the data provided (you may also add more) and pass it in to your page through the framework's [data fetching methods, e.g. `getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)
-- please add correct metatags to the page, for SEO and social sharing (see opengraph image in `/assets`).
-- please add meta files to the deployment, such as:
+- apply styling using either CSS or Sass, not a CSS-in-JS library. You may use CSS-module `.module.(s)css` syntax if you like. You are also welcome to pick out fonts and colors from our production site :)
+- use the data provided (you may also add more) and pass it in to your page through the framework's [data fetching methods, e.g. `getStaticProps`](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)
+- structure your markup semantically and accessibly
+- lay out your page responsively, at least for tablet and desktop viewports (you don't have to do a full mobile version)
+- add correct metatags to the page, for SEO and social sharing (see opengraph image in `/assets`).
+- add meta files to the deployment, such as:
     - `robots.txt`
     - `sitemap.xml`
-- please measure the performance of your resulting page on Google Lighthouse
+- measure the performance of your resulting page on Google Lighthouse
 
 ## The Follow-Up
 
@@ -34,7 +36,7 @@ Your finished task should consist of a [deployed page](https://nextjs.org/docs/d
 What we will be interested to discuss:
 
 - your choices and steps; what you would have done if you had more time
-- what kind of analytics instrumentation you would do on this page, to track its effectiveness--and how this would be implemented
+- how would you measure engagement on this page--and how this would be implemented?
 - what additions/improvements you might suggest to this page, with the goals of engagement and conversion in mind?
 
 Please also take some time to consider how future updates and changes to this page would be managed, in real-world scenario.
