@@ -1,0 +1,43 @@
+$purple: #5A17EE;
+
+.footer {
+    padding-top: 38px;
+    margin: 30px 20px 55px;
+    column-count: 3;
+    border-top: 1px solid #E3E3E3;
+
+    @media only screen and (min-width: 1000px){
+        margin: 30px 121px 55px;
+        column-count: 5;
+    }
+}
+
+.logo {
+    height: 115px;
+    width: 95px;
+    cursor: pointer;
+    fill: $purple;
+}
+
+.item {
+    break-inside: avoid-column;
+    margin-bottom: 48px;
+}
+
+.links {
+    color: black;
+}
+
+.link {
+    color: #7A7C92;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    display: inline-block;
+
+    &:hover {
+        color: black;
+    }
+}

@@ -1,5 +1,5 @@
-import logo from "../assets/rasa_horizontal_logo_white.svg"
-import styles from "./Navbar.module.scss"
+import Logo from "../assets/rasa_horizontal_logo_white.svg"
+import styles from "../styles/Navbar.module.scss"
 import links from "../data/site-header-links.json"
 
 export default function Navbar() {
@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <a href="https://rasa.com/">
-        <img className={styles.logo} src={logo} alt="Rasa Logo" />
+        <Logo className={styles.logo}/>
       </a>
 
       <ul className={styles.links}>

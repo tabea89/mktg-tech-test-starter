@@ -1,15 +1,18 @@
+$purple: #5A17EE;
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 48px;
-    background: #5a17ee;
+    background: $purple;
 }
 
 .logo {
     width: 84.28px;
     height: 40px;
     cursor: pointer;
+    fill: white;
 }
 
 .links {
@@ -22,19 +25,19 @@
 }
 
 .dropdownBtn {
-    width: 122px;
+    width: 124px;
     padding: 12px 16px;
-    background: white;
-    color: #5a17ee;
-    border-radius: 8px;
+    color: $purple;
     font-size: 14px;
+    background: white;
+    border-radius: 8px;
 
     &__icon {
         display: inline-block;
         padding: 3px;
         margin-left: 8px;
         margin-bottom: 2px;
-        border: solid #5a17ee;
+        border: solid $purple;
         border-width: 0 2px 2px 0;
         transform: rotate(45deg);
     }

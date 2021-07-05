@@ -1,0 +1,16 @@
+.casestudy {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1064px;
+
+    @media only screen and (min-width: 1000px){
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+.case {
+    color: black;
+    padding: 0 20px;
+}

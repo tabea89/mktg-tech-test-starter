@@ -1,0 +1,40 @@
+
+$purple: #5A17EE;
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 20px 55px;
+
+    @media only screen and (min-width: 1000px){
+        margin: 30px 121px 55px;
+        column-count: 5;
+    }
+
+    span {
+        color: #7A7C92;
+    }
+}
+
+.form {
+    display: flex;
+    height: 44px;
+}
+
+.label {
+    display: none;
+}
+
+.input {
+    height: 44px;
+}
+
+.btn {
+    margin-left: -5px;
+    color: white;
+    padding: 10px;
+    background: $purple;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
