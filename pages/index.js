@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Navbar from '../components/Navbar';
 /*
   NOTE:
     - the next two lines are using the css-module pattern
@@ -11,7 +12,14 @@ import cn from 'classnames';
 export default function Home() {
   return (
     <div className={cn(styles.page)}>
-      <h1>hello world</h1>
+      <header>
+          <Navbar/>
+      </header>
+      <main>
+        <section>
+          
+        </section>
+      </main>
     </div>
   );
 }
